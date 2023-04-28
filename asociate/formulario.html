@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rexistrate</title>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <form action="rexistrate.php" method="get">
+
+        <h2>Rexistrate</h2>
+
+        <input type="text" name="nome" size="40" placeholder="Nome" autofocus="autofocus" required="required"/>
+        <input type="text" name="apelidos" size="40" placeholder="Apelidos"/>
+        <input type="email" name="correo" placeholder="Correo" pattern="[a-z]+@[a-z]+\.com" required="required"/>
+        <input type="text" name="usuario" size="40" placeholder="Usuario" required="required"/>
+        <input type="password" name="contrasinal" placeholder="Contrasinal" required="required" size="8" pattern="[A-Z]."/>
+        <input type="text" name="telefono" placeholder="Teléfono"/>
+
+        <div class="boton">
+            <input type="submit" name="rexistrar" value="Rexistrar"/>
+        </div>
+
+        <p>Xa tes unha conta?<a href="../categorias/enlace.html" target="_blank">Entra aqui</a></p>
+
+    </form>
+    </div>
+
+</body>
+
+</html>

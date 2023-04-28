@@ -1,0 +1,168 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+}
+
+header div {
+  float: left;
+  width: 20%;
+}
+
+header nav {
+  float: left;
+  text-align: center;
+  width: 60%;
+}
+
+header section {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+footer img {
+  width: 12%;
+}
+
+
+
+
+body{
+  background-image: url("../img/vecteezy_a-colorful-gradient-background_1863171.jpg");
+}
+
+.logo{
+  float: left;
+  width: 20%;
+}
+
+.titulo{
+  float: left;
+  text-align: center;
+  width: 60%;
+}
+
+.carrito{
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+.container {
+  margin: 20px auto;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+nav {
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position:static;
+  background-color: darkcyan;
+  color: black;
+}
+
+nav div {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+  width: 15%;
+}
+
+nav section{
+  float: right;
+  text-align: center;
+  width: 15%;
+
+}
+
+nav img {
+
+  width: 20%;
+}
+
+.sidebar {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aquamarine;
+  color: black;
+  float: left; /* capa flotante  alineada a la izquierda*/
+  height: 650px;
+  margin-top: 30px;
+  width: 15%;
+}
+
+.sidebar div {
+  padding: 10px;
+}
+
+section.courses {
+  float: left;
+  margin-left: 5%;
+  width: 80%;
+}
+
+.course {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 0.8em;
+  float: left;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 5%;
+  text-align: center;
+  width: 25%;
+}
+
+.course img {
+  width: 80%;
+}
+
+.articles {
+  column-count: 1;
+  float: left;
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 80%;
+}
+
+/* Estilos para el pie de página */
+footer {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:darkcyan;
+  clear: both;
+  color:black;
+  font-weight: bolder;
+  font-size: 0.8;
+  margin-top: 20px;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+footer address {
+  float: left;
+  width: 20%;
+}
+
+footer div {
+  float: left;
+  text-align: center;
+  width: 60%;
+}
+
+footer section {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+footer img {
+  width: 12%;
+}

@@ -1,0 +1,350 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 400px 400px 400px 100px ;
+    background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+header {
+	width: 100%;
+	background-color: #52bad5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+nav {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #B3B3B3;
+	clear: left;
+    display: flex;
+    align-items: center;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.container nav ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+nav ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.nav ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+
+article.articles {
+
+    float: left;
+    width: 85%;
+
+}
+
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+  
+.article1 {
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size:2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.article1 img {
+    width: 95%;
+}
+
+.article2 {
+    background-color:coral;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.article2 img {
+    width: 95%;
+}
+
+.article3 {
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 3/4;
+    grid-row: 3/4;
+} 
+
+.article3 img {
+    width: 95%;
+}
+
+.article4 {
+    background-color: darkolivegreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.article4 img {
+    width: 95%;
+}
+
+.article5 {
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size:2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.article5 img {
+    width: 95%;
+}
+
+.article6 {
+    background-color:coral;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.article6 img {
+    width: 95%;
+}
+
+.article7 {
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 3/4;
+    grid-row: 4/5;
+} 
+
+.article7 img {
+    width: 95%;
+}
+
+.article8 {
+    background-color: darkolivegreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.article8 img {
+    width: 95%;
+}
+
+.article9 {
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size:2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.article9 img {
+    width: 95%;
+}
+
+.article10 {
+    background-color:coral;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.article10 img {
+    width: 95%;
+}
+
+.article11 {
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 3/4;
+    grid-row: 5/6;
+} 
+
+.article11 img {
+    width: 95%;
+}
+
+.article12 {
+    background-color: darkolivegreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+.article12 img {
+    width: 95%;
+}
+
+footer {
+    width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #B3B3B3;
+	clear: left;
+    display: flex;
+    align-items: center;
+    grid-column: 1/5;
+    grid-row: 6/7;
+  }
+  
+  footer address {
+    float: left;
+    width: 20%;
+  }
+  
+  footer div {
+    float: left;
+    text-align: center;
+    width: 60%;
+  }
+  
+  footer section {
+    float: left;
+    text-align: center;
+    width: 20%;
+  }
+  
+  footer img {
+    width: 12%;
+  }
